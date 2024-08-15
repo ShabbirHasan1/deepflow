@@ -7,6 +7,9 @@
 * feat: CK’s username and password support the use of special characters [#7229](https://github.com/deepflowio/deepflow/pull/7119)
 
 #### Bug Fix
+* fix: Add libpcap dependency to installation package [#7834](https://github.com/deepflowio/deepflow/pull/7834) by [yuanchaoa](https://github.com/yuanchaoa)
+* fix: fix agent rebalance panic [#7830](https://github.com/deepflowio/deepflow/pull/7830) by [roryye](https://github.com/roryye)
+* fix: fix the problem of config pointer copy [#7823](https://github.com/deepflowio/deepflow/pull/7823) by [jin-xiaofeng](https://github.com/jin-xiaofeng)
 * fix: Add filter to agent remote command and handle content when error… [#7382](https://github.com/deepflowio/deepflow/pull/7382) by [roryye](https://github.com/roryye)
 * fix: Community Edition does not support multi-organization and multi-team features [#7375](https://github.com/deepflowio/deepflow/pull/7375) by [jin-xiaofeng](https://github.com/jin-xiaofeng)
 * fix: agent wrong desensitized mysql trace_id [#7371](https://github.com/deepflowio/deepflow/pull/7371) by [TomatoMr](https://github.com/TomatoMr)
