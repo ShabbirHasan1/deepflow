@@ -7,6 +7,8 @@
 * feat: CK’s username and password support the use of special characters [#7229](https://github.com/deepflowio/deepflow/pull/7119)
 
 #### Bug Fix
+* feat: fixes allocating wrong org id [#7864](https://github.com/deepflowio/deepflow/pull/7864) by [ZhengYa-0110](https://github.com/ZhengYa-0110)
+* fix: drop data which organization is not exist [#7863](https://github.com/deepflowio/deepflow/pull/7863) by [lzf575](https://github.com/lzf575)
 * fix: Add filter to agent remote command and handle content when error… [#7382](https://github.com/deepflowio/deepflow/pull/7382) by [roryye](https://github.com/roryye)
 * fix: Community Edition does not support multi-organization and multi-team features [#7375](https://github.com/deepflowio/deepflow/pull/7375) by [jin-xiaofeng](https://github.com/jin-xiaofeng)
 * fix: agent wrong desensitized mysql trace_id [#7371](https://github.com/deepflowio/deepflow/pull/7371) by [TomatoMr](https://github.com/TomatoMr)
@@ -45,6 +47,10 @@
 **[Changelog for v6.5](https://www.deepflow.io/docs/release-notes/release-6.5-ce)**<br/>
 
 #### NEW FEATURE
+* feat: support update time of org list [#7867](https://github.com/deepflowio/deepflow/pull/7867) by [lzf575](https://github.com/lzf575)
+* feat: optimize org data check and sync [#7866](https://github.com/deepflowio/deepflow/pull/7866) by [SongZhen0704](https://github.com/SongZhen0704)
+* feat: adds detail error record when calling ingester org deletion [#7865](https://github.com/deepflowio/deepflow/pull/7865) by [ZhengYa-0110](https://github.com/ZhengYa-0110)
+* feat: add api for allocate org id [#7862](https://github.com/deepflowio/deepflow/pull/7862) by [SongZhen0704](https://github.com/SongZhen0704)
 * feat: Allow overriding remote exec cmdline with async function [#7385](https://github.com/deepflowio/deepflow/pull/7385) by [rvql](https://github.com/rvql)
 * feat: agent - add inner queue to mirror dispatcher [#7345](https://github.com/deepflowio/deepflow/pull/7345) by [yuanchaoa](https://github.com/yuanchaoa)
 * feat: Agent remote exec returns specific errors [#7334](https://github.com/deepflowio/deepflow/pull/7334) by [roryye](https://github.com/roryye)
