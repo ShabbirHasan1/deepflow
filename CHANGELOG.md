@@ -8,6 +8,7 @@
 ### <a id="main"></a>DeepFlow release main
 
 #### Bug Fix
+* fix: Modify array tag filter zero check #26069 [#7853](https://github.com/deepflowio/deepflow/pull/7853) by [Ericsssss](https://github.com/Ericsssss)
 * fix: Modify alert_event auto_service/auto_instance error and showtagv… [#7807](https://github.com/deepflowio/deepflow/pull/7807) by [Ericsssss](https://github.com/Ericsssss)
 * fix: turn off the call monitoring function and stop related functions [#7805](https://github.com/deepflowio/deepflow/pull/7805) by [jin-xiaofeng](https://github.com/jin-xiaofeng)
 * fix: agent enable feature permission [#7794](https://github.com/deepflowio/deepflow/pull/7794) by [roryye](https://github.com/roryye)
@@ -130,6 +131,9 @@
 * Fix prometheus data cannot be labeled with universal tags，if slow-decoder is used. [#7100](https://github.com/deepflowio/deepflow/pull/7100)
 
 #### NEW FEATURE
+* feat: drop data which organization is not exist [#7877](https://github.com/deepflowio/deepflow/pull/7877) by [lzf575](https://github.com/lzf575)
+* feat: supports non-real-time deletion of ck of deleted orgs [#7876](https://github.com/deepflowio/deepflow/pull/7876) by [ZhengYa-0110](https://github.com/ZhengYa-0110)
+* feat: optimize org data check and sync [#7870](https://github.com/deepflowio/deepflow/pull/7870) by [SongZhen0704](https://github.com/SongZhen0704)
 * feat: add column in ck pod_node and pod_ingress [#7799](https://github.com/deepflowio/deepflow/pull/7799) by [duandaa](https://github.com/duandaa)
 * feat: Using libpcap without restarting when the network card does not… [#7780](https://github.com/deepflowio/deepflow/pull/7780) by [yuanchaoa](https://github.com/yuanchaoa)
 * feat: add endpoint-tcp-port-name configuration [#7778](https://github.com/deepflowio/deepflow/pull/7778) by [xiaochaoren1](https://github.com/xiaochaoren1)
@@ -285,6 +289,7 @@
 * feat: server directly reports metrics of load1_by_cpu_num that can be used for alert [#7088](https://github.com/deepflowio/deepflow/pull/7088) by [lzf575](https://github.com/lzf575)
 
 #### Refactoring
+* refactor: agent divides the config into dynamic_config and user_config [#7872](https://github.com/deepflowio/deepflow/pull/7872) by [TomatoMr](https://github.com/TomatoMr)
 * refactor: add configuration structures [#7804](https://github.com/deepflowio/deepflow/pull/7804) by [yuanchaoa](https://github.com/yuanchaoa)
 * refactor: modify the default batch write size for metrics and flow logs [#7789](https://github.com/deepflowio/deepflow/pull/7789) by [lzf575](https://github.com/lzf575)
 * refactor: agent config [#7745](https://github.com/deepflowio/deepflow/pull/7745) by [TomatoMr](https://github.com/TomatoMr)
