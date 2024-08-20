@@ -7,6 +7,8 @@
 * feat: CK’s username and password support the use of special characters [#7229](https://github.com/deepflowio/deepflow/pull/7119)
 
 #### Bug Fix
+* fix: incorrect fast path map size [#7892](https://github.com/deepflowio/deepflow/pull/7892) by [yuanchaoa](https://github.com/yuanchaoa)
+* fix: abnormal stats data, causing deepflow-server to panic [#7891](https://github.com/deepflowio/deepflow/pull/7891) by [lzf575](https://github.com/lzf575)
 * fix: Add filter to agent remote command and handle content when error… [#7382](https://github.com/deepflowio/deepflow/pull/7382) by [roryye](https://github.com/roryye)
 * fix: Community Edition does not support multi-organization and multi-team features [#7375](https://github.com/deepflowio/deepflow/pull/7375) by [jin-xiaofeng](https://github.com/jin-xiaofeng)
 * fix: agent wrong desensitized mysql trace_id [#7371](https://github.com/deepflowio/deepflow/pull/7371) by [TomatoMr](https://github.com/TomatoMr)
@@ -45,6 +47,8 @@
 **[Changelog for v6.5](https://www.deepflow.io/docs/release-notes/release-6.5-ce)**<br/>
 
 #### NEW FEATURE
+* feat: when only exporting a single kafka data, use the 'sendMessage' interface [#7884](https://github.com/deepflowio/deepflow/pull/7884) by [lzf575](https://github.com/lzf575)
+* feat: update domain daily trigger [#7848](https://github.com/deepflowio/deepflow/pull/7848) by [askyrie](https://github.com/askyrie)
 * feat: Allow overriding remote exec cmdline with async function [#7385](https://github.com/deepflowio/deepflow/pull/7385) by [rvql](https://github.com/rvql)
 * feat: agent - add inner queue to mirror dispatcher [#7345](https://github.com/deepflowio/deepflow/pull/7345) by [yuanchaoa](https://github.com/yuanchaoa)
 * feat: Agent remote exec returns specific errors [#7334](https://github.com/deepflowio/deepflow/pull/7334) by [roryye](https://github.com/roryye)
