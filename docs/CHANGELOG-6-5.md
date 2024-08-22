@@ -103,6 +103,8 @@
 **[Changelog for v6.5](https://www.deepflow.io/docs/release-notes/release-6.5-ce)**<br/>
 
 #### NEW FEATURE
+* feat: add pseudo link field for treenode [#7916](https://github.com/deepflowio/deepflow/pull/7916) by [taloric](https://github.com/taloric)
+* feat: agent - eBPF Optimize eBPF socket trace (#7871) [#7913](https://github.com/deepflowio/deepflow/pull/7913) by [yinjiping](https://github.com/yinjiping)
 * feat: Using libpcap without restarting when the network card does not… [#7781](https://github.com/deepflowio/deepflow/pull/7781) by [yuanchaoa](https://github.com/yuanchaoa)
 * feat: agent license func operate [#7771](https://github.com/deepflowio/deepflow/pull/7771) by [roryye](https://github.com/roryye)
 * feat: increase billing function control capabilities [#7770](https://github.com/deepflowio/deepflow/pull/7770) by [jin-xiaofeng](https://github.com/jin-xiaofeng)
