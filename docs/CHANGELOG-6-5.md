@@ -7,6 +7,9 @@
 * feat: CK’s username and password support the use of special characters [#7229](https://github.com/deepflowio/deepflow/pull/7119)
 
 #### Bug Fix
+* fix: delete agent group [#7954](https://github.com/deepflowio/deepflow/pull/7954) by [roryye](https://github.com/roryye)
+* fix: agent registration followGroupFeatures is all features [#7950](https://github.com/deepflowio/deepflow/pull/7950) by [jin-xiaofeng](https://github.com/jin-xiaofeng)
+* fix: issu sql version [#7947](https://github.com/deepflowio/deepflow/pull/7947) by [roryye](https://github.com/roryye)
 * fix: Add filter to agent remote command and handle content when error… [#7382](https://github.com/deepflowio/deepflow/pull/7382) by [roryye](https://github.com/roryye)
 * fix: Community Edition does not support multi-organization and multi-team features [#7375](https://github.com/deepflowio/deepflow/pull/7375) by [jin-xiaofeng](https://github.com/jin-xiaofeng)
 * fix: agent wrong desensitized mysql trace_id [#7371](https://github.com/deepflowio/deepflow/pull/7371) by [TomatoMr](https://github.com/TomatoMr)
@@ -45,6 +48,8 @@
 **[Changelog for v6.5](https://www.deepflow.io/docs/release-notes/release-6.5-ce)**<br/>
 
 #### NEW FEATURE
+* feat: trace tree support store PseudoLink field [#7952](https://github.com/deepflowio/deepflow/pull/7952) by [lzf575](https://github.com/lzf575)
+* feat: add enable features to agent group [#7945](https://github.com/deepflowio/deepflow/pull/7945) by [roryye](https://github.com/roryye)
 * feat: Allow overriding remote exec cmdline with async function [#7385](https://github.com/deepflowio/deepflow/pull/7385) by [rvql](https://github.com/rvql)
 * feat: agent - add inner queue to mirror dispatcher [#7345](https://github.com/deepflowio/deepflow/pull/7345) by [yuanchaoa](https://github.com/yuanchaoa)
 * feat: Agent remote exec returns specific errors [#7334](https://github.com/deepflowio/deepflow/pull/7334) by [roryye](https://github.com/roryye)
