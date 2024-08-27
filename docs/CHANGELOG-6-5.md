@@ -11,6 +11,10 @@
 * feat: CK’s username and password support the use of special characters [#7229](https://github.com/deepflowio/deepflow/pull/7119)
 
 #### Bug Fix
+* fix: agent - eBPF Remove the handling of redundant process events [#7978](https://github.com/deepflowio/deepflow/pull/7978) by [yinjiping](https://github.com/yinjiping)
+* fix: add libpcap to deb package [#7967](https://github.com/deepflowio/deepflow/pull/7967) by [yuanchaoa](https://github.com/yuanchaoa)
+* fix: delete agent group [#7963](https://github.com/deepflowio/deepflow/pull/7963) by [roryye](https://github.com/roryye)
+* fix: agent - eBPF Modify memory barrier for ring [#7941](https://github.com/deepflowio/deepflow/pull/7941) by [yinjiping](https://github.com/yinjiping)
 * fix: CVE-2024-35195 vuln [#7809](https://github.com/deepflowio/deepflow/pull/7809) by [taloric](https://github.com/taloric)
 * fix: turn off the call monitoring function and stop related functions [#7806](https://github.com/deepflowio/deepflow/pull/7806) by [jin-xiaofeng](https://github.com/jin-xiaofeng)
 * fix: agent enable feature permission [#7795](https://github.com/deepflowio/deepflow/pull/7795) by [roryye](https://github.com/roryye)
