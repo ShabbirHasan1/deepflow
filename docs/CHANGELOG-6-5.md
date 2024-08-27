@@ -7,6 +7,10 @@
 * feat: CK’s username and password support the use of special characters [#7229](https://github.com/deepflowio/deepflow/pull/7119)
 
 #### Bug Fix
+* fix: agent - eBPF Remove the handling of redundant process events [#7978](https://github.com/deepflowio/deepflow/pull/7978) by [yinjiping](https://github.com/yinjiping)
+* fix: add libpcap to deb package [#7967](https://github.com/deepflowio/deepflow/pull/7967) by [yuanchaoa](https://github.com/yuanchaoa)
+* fix: delete agent group [#7963](https://github.com/deepflowio/deepflow/pull/7963) by [roryye](https://github.com/roryye)
+* fix: agent - eBPF Modify memory barrier for ring [#7941](https://github.com/deepflowio/deepflow/pull/7941) by [yinjiping](https://github.com/yinjiping)
 * fix: Add filter to agent remote command and handle content when error… [#7382](https://github.com/deepflowio/deepflow/pull/7382) by [roryye](https://github.com/roryye)
 * fix: Community Edition does not support multi-organization and multi-team features [#7375](https://github.com/deepflowio/deepflow/pull/7375) by [jin-xiaofeng](https://github.com/jin-xiaofeng)
 * fix: agent wrong desensitized mysql trace_id [#7371](https://github.com/deepflowio/deepflow/pull/7371) by [TomatoMr](https://github.com/TomatoMr)
