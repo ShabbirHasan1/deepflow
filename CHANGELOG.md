@@ -8,6 +8,14 @@
 ### <a id="main"></a>DeepFlow release main
 
 #### Bug Fix
+* fix: querier converts types when using dictget [#7997](https://github.com/deepflowio/deepflow/pull/7997) by [xiaochaoren1](https://github.com/xiaochaoren1)
+* fix: if using ByConity database storage, no need to deal with _local tables [#7993](https://github.com/deepflowio/deepflow/pull/7993) by [lzf575](https://github.com/lzf575)
+* fix: aarch64 musl compilation [#7992](https://github.com/deepflowio/deepflow/pull/7992) by [rvql](https://github.com/rvql)
+* fix: Agent configuration template [#7989](https://github.com/deepflowio/deepflow/pull/7989) by [rvql](https://github.com/rvql)
+* fix: add log to agent remote commands [#7987](https://github.com/deepflowio/deepflow/pull/7987) by [roryye](https://github.com/roryye)
+* fix: fixes recorder cache log level error [#7970](https://github.com/deepflowio/deepflow/pull/7970) by [ZhengYa-0110](https://github.com/ZhengYa-0110)
+* fix: end_point is null [#7966](https://github.com/deepflowio/deepflow/pull/7966) by [incoffeemonster](https://github.com/incoffeemonster)
+* fix: optimized transtype function [#7875](https://github.com/deepflowio/deepflow/pull/7875) by [xiaochaoren1](https://github.com/xiaochaoren1)
 * fix: Modify alert_event auto_service/auto_instance error and showtagv… [#7807](https://github.com/deepflowio/deepflow/pull/7807) by [Ericsssss](https://github.com/Ericsssss)
 * fix: turn off the call monitoring function and stop related functions [#7805](https://github.com/deepflowio/deepflow/pull/7805) by [jin-xiaofeng](https://github.com/jin-xiaofeng)
 * fix: agent enable feature permission [#7794](https://github.com/deepflowio/deepflow/pull/7794) by [roryye](https://github.com/roryye)
@@ -130,6 +138,7 @@
 * Fix prometheus data cannot be labeled with universal tags，if slow-decoder is used. [#7100](https://github.com/deepflowio/deepflow/pull/7100)
 
 #### NEW FEATURE
+* feat: add pod_cluster info in vtap api [#7984](https://github.com/deepflowio/deepflow/pull/7984) by [SongZhen0704](https://github.com/SongZhen0704)
 * feat: add column in ck pod_node and pod_ingress [#7799](https://github.com/deepflowio/deepflow/pull/7799) by [duandaa](https://github.com/duandaa)
 * feat: Using libpcap without restarting when the network card does not… [#7780](https://github.com/deepflowio/deepflow/pull/7780) by [yuanchaoa](https://github.com/yuanchaoa)
 * feat: add endpoint-tcp-port-name configuration [#7778](https://github.com/deepflowio/deepflow/pull/7778) by [xiaochaoren1](https://github.com/xiaochaoren1)
@@ -285,6 +294,7 @@
 * feat: server directly reports metrics of load1_by_cpu_num that can be used for alert [#7088](https://github.com/deepflowio/deepflow/pull/7088) by [lzf575](https://github.com/lzf575)
 
 #### Refactoring
+* refactor: remove unused sql [#7656](https://github.com/deepflowio/deepflow/pull/7656) by [roryye](https://github.com/roryye)
 * refactor: add configuration structures [#7804](https://github.com/deepflowio/deepflow/pull/7804) by [yuanchaoa](https://github.com/yuanchaoa)
 * refactor: modify the default batch write size for metrics and flow logs [#7789](https://github.com/deepflowio/deepflow/pull/7789) by [lzf575](https://github.com/lzf575)
 * refactor: agent config [#7745](https://github.com/deepflowio/deepflow/pull/7745) by [TomatoMr](https://github.com/TomatoMr)
