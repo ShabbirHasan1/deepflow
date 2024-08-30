@@ -7,6 +7,9 @@
 * feat: CK’s username and password support the use of special characters [#7229](https://github.com/deepflowio/deepflow/pull/7119)
 
 #### Bug Fix
+* fix: agent - eBPF fentry/fexit Check for '__sys_recvmmsg' [#8011](https://github.com/deepflowio/deepflow/pull/8011) by [yinjiping](https://github.com/yinjiping)
+* fix: resource label errors for non-default organization resource chan… [#8009](https://github.com/deepflowio/deepflow/pull/8009) by [lzf575](https://github.com/lzf575)
+* fix: controller records unnecessary error logs [#8005](https://github.com/deepflowio/deepflow/pull/8005) by [ZhengYa-0110](https://github.com/ZhengYa-0110)
 * fix: Add filter to agent remote command and handle content when error… [#7382](https://github.com/deepflowio/deepflow/pull/7382) by [roryye](https://github.com/roryye)
 * fix: Community Edition does not support multi-organization and multi-team features [#7375](https://github.com/deepflowio/deepflow/pull/7375) by [jin-xiaofeng](https://github.com/jin-xiaofeng)
 * fix: agent wrong desensitized mysql trace_id [#7371](https://github.com/deepflowio/deepflow/pull/7371) by [TomatoMr](https://github.com/TomatoMr)
