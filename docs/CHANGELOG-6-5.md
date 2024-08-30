@@ -11,6 +11,9 @@
 * feat: CK’s username and password support the use of special characters [#7229](https://github.com/deepflowio/deepflow/pull/7119)
 
 #### Bug Fix
+* fix: agent - eBPF fentry/fexit Check for '__sys_recvmmsg' [#8011](https://github.com/deepflowio/deepflow/pull/8011) by [yinjiping](https://github.com/yinjiping)
+* fix: resource label errors for non-default organization resource chan… [#8009](https://github.com/deepflowio/deepflow/pull/8009) by [lzf575](https://github.com/lzf575)
+* fix: controller records unnecessary error logs [#8005](https://github.com/deepflowio/deepflow/pull/8005) by [ZhengYa-0110](https://github.com/ZhengYa-0110)
 * fix: CVE-2024-35195 vuln [#7809](https://github.com/deepflowio/deepflow/pull/7809) by [taloric](https://github.com/taloric)
 * fix: turn off the call monitoring function and stop related functions [#7806](https://github.com/deepflowio/deepflow/pull/7806) by [jin-xiaofeng](https://github.com/jin-xiaofeng)
 * fix: agent enable feature permission [#7795](https://github.com/deepflowio/deepflow/pull/7795) by [roryye](https://github.com/roryye)
