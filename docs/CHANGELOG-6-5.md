@@ -7,6 +7,7 @@
 * feat: CK’s username and password support the use of special characters [#7229](https://github.com/deepflowio/deepflow/pull/7119)
 
 #### Bug Fix
+* fix: agent - eBPF Fix the issue with loading '__sys_recvmmsg' [#8052](https://github.com/deepflowio/deepflow/pull/8052) by [yinjiping](https://github.com/yinjiping)
 * fix: Add filter to agent remote command and handle content when error… [#7382](https://github.com/deepflowio/deepflow/pull/7382) by [roryye](https://github.com/roryye)
 * fix: Community Edition does not support multi-organization and multi-team features [#7375](https://github.com/deepflowio/deepflow/pull/7375) by [jin-xiaofeng](https://github.com/jin-xiaofeng)
 * fix: agent wrong desensitized mysql trace_id [#7371](https://github.com/deepflowio/deepflow/pull/7371) by [TomatoMr](https://github.com/TomatoMr)
@@ -45,6 +46,7 @@
 **[Changelog for v6.5](https://www.deepflow.io/docs/release-notes/release-6.5-ce)**<br/>
 
 #### NEW FEATURE
+* feat: support multi target port [#8032](https://github.com/deepflowio/deepflow/pull/8032) by [askyrie](https://github.com/askyrie)
 * feat: Allow overriding remote exec cmdline with async function [#7385](https://github.com/deepflowio/deepflow/pull/7385) by [rvql](https://github.com/rvql)
 * feat: agent - add inner queue to mirror dispatcher [#7345](https://github.com/deepflowio/deepflow/pull/7345) by [yuanchaoa](https://github.com/yuanchaoa)
 * feat: Agent remote exec returns specific errors [#7334](https://github.com/deepflowio/deepflow/pull/7334) by [roryye](https://github.com/roryye)
@@ -65,8 +67,8 @@
 * chore: update cli dependencies [#7250](https://github.com/deepflowio/deepflow/pull/7250) by [lzf575](https://github.com/lzf575)
 
 #### OTHER
+* [Controller] get data error from mysql and return directly [#8043](https://github.com/deepflowio/deepflow/pull/8043) by [jin-xiaofeng](https://github.com/jin-xiaofeng)
 * bump golang.org/x/net to v0.26.0 [#7234](https://github.com/deepflowio/deepflow/pull/7234) by [zhangzujian](https://github.com/zhangzujian)
-
 
 #### Performance
 * perf: add setting ttl_only_drop_parts to the CK table to make TTL more efficient [#7266](https://github.com/deepflowio/deepflow/pull/7266) by [lzf575](https://github.com/lzf575)
