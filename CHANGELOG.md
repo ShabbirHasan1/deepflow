@@ -8,6 +8,7 @@
 ### <a id="main"></a>DeepFlow release main
 
 #### Bug Fix
+* fix: prom query error [#8046](https://github.com/deepflowio/deepflow/pull/8046) by [xiaochaoren1](https://github.com/xiaochaoren1)
 * fix: Modify alert_event auto_service/auto_instance error and showtagv… [#7807](https://github.com/deepflowio/deepflow/pull/7807) by [Ericsssss](https://github.com/Ericsssss)
 * fix: turn off the call monitoring function and stop related functions [#7805](https://github.com/deepflowio/deepflow/pull/7805) by [jin-xiaofeng](https://github.com/jin-xiaofeng)
 * fix: agent enable feature permission [#7794](https://github.com/deepflowio/deepflow/pull/7794) by [roryye](https://github.com/roryye)
@@ -130,6 +131,9 @@
 * Fix prometheus data cannot be labeled with universal tags，if slow-decoder is used. [#7100](https://github.com/deepflowio/deepflow/pull/7100)
 
 #### NEW FEATURE
+* feat: gather svc add external ip [#8037](https://github.com/deepflowio/deepflow/pull/8037) by [askyrie](https://github.com/askyrie)
+* feat: support multi target port [#8021](https://github.com/deepflowio/deepflow/pull/8021) by [askyrie](https://github.com/askyrie)
+* feat: get metrics divided into static and dynamic [#7996](https://github.com/deepflowio/deepflow/pull/7996) by [xiaochaoren1](https://github.com/xiaochaoren1)
 * feat: add column in ck pod_node and pod_ingress [#7799](https://github.com/deepflowio/deepflow/pull/7799) by [duandaa](https://github.com/duandaa)
 * feat: Using libpcap without restarting when the network card does not… [#7780](https://github.com/deepflowio/deepflow/pull/7780) by [yuanchaoa](https://github.com/yuanchaoa)
 * feat: add endpoint-tcp-port-name configuration [#7778](https://github.com/deepflowio/deepflow/pull/7778) by [xiaochaoren1](https://github.com/xiaochaoren1)
@@ -324,6 +328,7 @@
 
 
 #### OTHER
+* Update the description of `status` in l4_flow_log. [#8036](https://github.com/deepflowio/deepflow/pull/8036) by [deepflow-lifei](https://github.com/deepflow-lifei)
 * use .env to config docker-compose.yaml [#7729](https://github.com/deepflowio/deepflow/pull/7729) by [asdfsx](https://github.com/asdfsx)
 * refector: add agent.proto [#7695](https://github.com/deepflowio/deepflow/pull/7695) by [yuanchaoa](https://github.com/yuanchaoa)
 * Update changelog [#7660](https://github.com/deepflowio/deepflow/pull/7660) by [lzf575](https://github.com/lzf575)
