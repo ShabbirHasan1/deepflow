@@ -103,6 +103,9 @@
 **[Changelog for v6.5](https://www.deepflow.io/docs/release-notes/release-6.5-ce)**<br/>
 
 #### NEW FEATURE
+* feat: agent - eBPF Optimize interface 'java_syms_update_main' [#8103](https://github.com/deepflowio/deepflow/pull/8103) by [yinjiping](https://github.com/yinjiping)
+* feat: Change opengauss api group [#8099](https://github.com/deepflowio/deepflow/pull/8099) by [rvql](https://github.com/rvql)
+* feat: improves performance of recorder synchronization when there are a large number of process data [#8086](https://github.com/deepflowio/deepflow/pull/8086) by [ZhengYa-0110](https://github.com/ZhengYa-0110)
 * feat: Using libpcap without restarting when the network card does not… [#7781](https://github.com/deepflowio/deepflow/pull/7781) by [yuanchaoa](https://github.com/yuanchaoa)
 * feat: agent license func operate [#7771](https://github.com/deepflowio/deepflow/pull/7771) by [roryye](https://github.com/roryye)
 * feat: increase billing function control capabilities [#7770](https://github.com/deepflowio/deepflow/pull/7770) by [jin-xiaofeng](https://github.com/jin-xiaofeng)
