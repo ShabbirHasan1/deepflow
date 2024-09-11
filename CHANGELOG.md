@@ -8,6 +8,9 @@
 ### <a id="main"></a>DeepFlow release main
 
 #### Bug Fix
+* fix: Fix DWARF config on unsupported systems and tracer restart [#8118](https://github.com/deepflowio/deepflow/pull/8118) by [rvql](https://github.com/rvql)
+* fix: agent - eBPF Fix the calculation of total process time [#8117](https://github.com/deepflowio/deepflow/pull/8117) by [yinjiping](https://github.com/yinjiping)
+* fix: querier TopK supporrt resource_id [#8104](https://github.com/deepflowio/deepflow/pull/8104) by [xiaochaoren1](https://github.com/xiaochaoren1)
 * fix: Modify alert_event auto_service/auto_instance error and showtagv… [#7807](https://github.com/deepflowio/deepflow/pull/7807) by [Ericsssss](https://github.com/Ericsssss)
 * fix: turn off the call monitoring function and stop related functions [#7805](https://github.com/deepflowio/deepflow/pull/7805) by [jin-xiaofeng](https://github.com/jin-xiaofeng)
 * fix: agent enable feature permission [#7794](https://github.com/deepflowio/deepflow/pull/7794) by [roryye](https://github.com/roryye)
@@ -130,6 +133,8 @@
 * Fix prometheus data cannot be labeled with universal tags，if slow-decoder is used. [#7100](https://github.com/deepflowio/deepflow/pull/7100)
 
 #### NEW FEATURE
+* feat: support free OS memory at intervals [#8091](https://github.com/deepflowio/deepflow/pull/8091) by [lzf575](https://github.com/lzf575)
+* feat: support profile data compressed by agent [#8088](https://github.com/deepflowio/deepflow/pull/8088) by [taloric](https://github.com/taloric)
 * feat: add column in ck pod_node and pod_ingress [#7799](https://github.com/deepflowio/deepflow/pull/7799) by [duandaa](https://github.com/duandaa)
 * feat: Using libpcap without restarting when the network card does not… [#7780](https://github.com/deepflowio/deepflow/pull/7780) by [yuanchaoa](https://github.com/yuanchaoa)
 * feat: add endpoint-tcp-port-name configuration [#7778](https://github.com/deepflowio/deepflow/pull/7778) by [xiaochaoren1](https://github.com/xiaochaoren1)
