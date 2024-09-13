@@ -11,6 +11,8 @@
 * feat: CK’s username and password support the use of special characters [#7229](https://github.com/deepflowio/deepflow/pull/7119)
 
 #### Bug Fix
+* fix: incorrect request resource in kafka logs [#8142](https://github.com/deepflowio/deepflow/pull/8142) by [yuanchaoa](https://github.com/yuanchaoa)
+* fix: specify the go mod version when cli verify [#8136](https://github.com/deepflowio/deepflow/pull/8136) by [jiumos](https://github.com/jiumos)
 * fix: CVE-2024-35195 vuln [#7809](https://github.com/deepflowio/deepflow/pull/7809) by [taloric](https://github.com/taloric)
 * fix: turn off the call monitoring function and stop related functions [#7806](https://github.com/deepflowio/deepflow/pull/7806) by [jin-xiaofeng](https://github.com/jin-xiaofeng)
 * fix: agent enable feature permission [#7795](https://github.com/deepflowio/deepflow/pull/7795) by [roryye](https://github.com/roryye)
