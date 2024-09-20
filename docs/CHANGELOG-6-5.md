@@ -7,6 +7,8 @@
 * feat: CK’s username and password support the use of special characters [#7229](https://github.com/deepflowio/deepflow/pull/7119)
 
 #### Bug Fix
+* fix: applicaition log decode failed causes subsequent data anomalies [#8178](https://github.com/deepflowio/deepflow/pull/8178) by [lzf575](https://github.com/lzf575)
+* fix: Bad cstr passed into pcap_compile_nopcap [#8175](https://github.com/deepflowio/deepflow/pull/8175) by [rvql](https://github.com/rvql)
 * fix: Add filter to agent remote command and handle content when error… [#7382](https://github.com/deepflowio/deepflow/pull/7382) by [roryye](https://github.com/roryye)
 * fix: Community Edition does not support multi-organization and multi-team features [#7375](https://github.com/deepflowio/deepflow/pull/7375) by [jin-xiaofeng](https://github.com/jin-xiaofeng)
 * fix: agent wrong desensitized mysql trace_id [#7371](https://github.com/deepflowio/deepflow/pull/7371) by [TomatoMr](https://github.com/TomatoMr)
