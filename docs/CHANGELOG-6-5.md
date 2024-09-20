@@ -11,6 +11,8 @@
 * feat: CK’s username and password support the use of special characters [#7229](https://github.com/deepflowio/deepflow/pull/7119)
 
 #### Bug Fix
+* fix: applicaition log decode failed causes subsequent data anomalies [#8178](https://github.com/deepflowio/deepflow/pull/8178) by [lzf575](https://github.com/lzf575)
+* fix: Bad cstr passed into pcap_compile_nopcap [#8175](https://github.com/deepflowio/deepflow/pull/8175) by [rvql](https://github.com/rvql)
 * fix: CVE-2024-35195 vuln [#7809](https://github.com/deepflowio/deepflow/pull/7809) by [taloric](https://github.com/taloric)
 * fix: turn off the call monitoring function and stop related functions [#7806](https://github.com/deepflowio/deepflow/pull/7806) by [jin-xiaofeng](https://github.com/jin-xiaofeng)
 * fix: agent enable feature permission [#7795](https://github.com/deepflowio/deepflow/pull/7795) by [roryye](https://github.com/roryye)
