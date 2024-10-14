@@ -103,6 +103,7 @@
 **[Changelog for v6.5](https://www.deepflow.io/docs/release-notes/release-6.5-ce)**<br/>
 
 #### NEW FEATURE
+* feat: agent - eBPF Adjust log output for get_process_starttime_and_comm [#8294](https://github.com/deepflowio/deepflow/pull/8294) by [yinjiping](https://github.com/yinjiping)
 * feat: Using libpcap without restarting when the network card does not… [#7781](https://github.com/deepflowio/deepflow/pull/7781) by [yuanchaoa](https://github.com/yuanchaoa)
 * feat: agent license func operate [#7771](https://github.com/deepflowio/deepflow/pull/7771) by [roryye](https://github.com/roryye)
 * feat: increase billing function control capabilities [#7770](https://github.com/deepflowio/deepflow/pull/7770) by [jin-xiaofeng](https://github.com/jin-xiaofeng)
