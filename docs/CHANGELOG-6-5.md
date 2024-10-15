@@ -11,6 +11,7 @@
 * feat: CK’s username and password support the use of special characters [#7229](https://github.com/deepflowio/deepflow/pull/7119)
 
 #### Bug Fix
+* fix: update mirror ci [#8300](https://github.com/deepflowio/deepflow/pull/8300) by [jiumos](https://github.com/jiumos)
 * fix: CVE-2024-35195 vuln [#7809](https://github.com/deepflowio/deepflow/pull/7809) by [taloric](https://github.com/taloric)
 * fix: turn off the call monitoring function and stop related functions [#7806](https://github.com/deepflowio/deepflow/pull/7806) by [jin-xiaofeng](https://github.com/jin-xiaofeng)
 * fix: agent enable feature permission [#7795](https://github.com/deepflowio/deepflow/pull/7795) by [roryye](https://github.com/roryye)
@@ -103,6 +104,7 @@
 **[Changelog for v6.5](https://www.deepflow.io/docs/release-notes/release-6.5-ce)**<br/>
 
 #### NEW FEATURE
+* feat: agent - eBPF Support RT kernel [#8301](https://github.com/deepflowio/deepflow/pull/8301) by [yinjiping](https://github.com/yinjiping)
 * feat: Using libpcap without restarting when the network card does not… [#7781](https://github.com/deepflowio/deepflow/pull/7781) by [yuanchaoa](https://github.com/yuanchaoa)
 * feat: agent license func operate [#7771](https://github.com/deepflowio/deepflow/pull/7771) by [roryye](https://github.com/roryye)
 * feat: increase billing function control capabilities [#7770](https://github.com/deepflowio/deepflow/pull/7770) by [jin-xiaofeng](https://github.com/jin-xiaofeng)
