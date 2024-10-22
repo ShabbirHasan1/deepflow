@@ -130,6 +130,11 @@
 * Fix prometheus data cannot be labeled with universal tags，if slow-decoder is used. [#7100](https://github.com/deepflowio/deepflow/pull/7100)
 
 #### NEW FEATURE
+* feature: calls trisolaris refresh after updating agent group config [#8356](https://github.com/deepflowio/deepflow/pull/8356) by [ZhengYa-0110](https://github.com/ZhengYa-0110)
+* feature: removes unused configuration [#8355](https://github.com/deepflowio/deepflow/pull/8355) by [ZhengYa-0110](https://github.com/ZhengYa-0110)
+* feat: agent - eBPF Choose to exit when an error occurs [#8352](https://github.com/deepflowio/deepflow/pull/8352) by [yinjiping](https://github.com/yinjiping)
+* feat: genesis support agent func [#8288](https://github.com/deepflowio/deepflow/pull/8288) by [askyrie](https://github.com/askyrie)
+* feature: adds agent group config api [#8065](https://github.com/deepflowio/deepflow/pull/8065) by [roryye](https://github.com/roryye)
 * feat: add column in ck pod_node and pod_ingress [#7799](https://github.com/deepflowio/deepflow/pull/7799) by [duandaa](https://github.com/duandaa)
 * feat: Using libpcap without restarting when the network card does not… [#7780](https://github.com/deepflowio/deepflow/pull/7780) by [yuanchaoa](https://github.com/yuanchaoa)
 * feat: add endpoint-tcp-port-name configuration [#7778](https://github.com/deepflowio/deepflow/pull/7778) by [xiaochaoren1](https://github.com/xiaochaoren1)
@@ -324,6 +329,7 @@
 
 
 #### OTHER
+* Support for one custom workload StatefulSetPlus [#8348](https://github.com/deepflowio/deepflow/pull/8348) by [Hyzhou](https://github.com/Hyzhou)
 * use .env to config docker-compose.yaml [#7729](https://github.com/deepflowio/deepflow/pull/7729) by [asdfsx](https://github.com/asdfsx)
 * refector: add agent.proto [#7695](https://github.com/deepflowio/deepflow/pull/7695) by [yuanchaoa](https://github.com/yuanchaoa)
 * Update changelog [#7660](https://github.com/deepflowio/deepflow/pull/7660) by [lzf575](https://github.com/lzf575)
