@@ -8,6 +8,9 @@
 ### <a id="main"></a>DeepFlow release main
 
 #### Bug Fix
+* fix: Mega units in configuration [#8435](https://github.com/deepflowio/deepflow/pull/8435) by [rvql](https://github.com/rvql)
+* fix: L4/L7 log store tap types configuration [#8434](https://github.com/deepflowio/deepflow/pull/8434) by [rvql](https://github.com/rvql)
+* fix: Invalid type in config cause parse failure [#8433](https://github.com/deepflowio/deepflow/pull/8433) by [rvql](https://github.com/rvql)
 * fix: Modify alert_event auto_service/auto_instance error and showtagv… [#7807](https://github.com/deepflowio/deepflow/pull/7807) by [Ericsssss](https://github.com/Ericsssss)
 * fix: turn off the call monitoring function and stop related functions [#7805](https://github.com/deepflowio/deepflow/pull/7805) by [jin-xiaofeng](https://github.com/jin-xiaofeng)
 * fix: agent enable feature permission [#7794](https://github.com/deepflowio/deepflow/pull/7794) by [roryye](https://github.com/roryye)
