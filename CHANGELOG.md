@@ -8,6 +8,8 @@
 ### <a id="main"></a>DeepFlow release main
 
 #### Bug Fix
+* fix: ckwriter writing failure caused by not writing data for a long time [#8470](https://github.com/deepflowio/deepflow/pull/8470) by [lzf575](https://github.com/lzf575)
+* fix: Setting type, parser and default value [#8464](https://github.com/deepflowio/deepflow/pull/8464) by [rvql](https://github.com/rvql)
 * fix: Modify alert_event auto_service/auto_instance error and showtagv… [#7807](https://github.com/deepflowio/deepflow/pull/7807) by [Ericsssss](https://github.com/Ericsssss)
 * fix: turn off the call monitoring function and stop related functions [#7805](https://github.com/deepflowio/deepflow/pull/7805) by [jin-xiaofeng](https://github.com/jin-xiaofeng)
 * fix: agent enable feature permission [#7794](https://github.com/deepflowio/deepflow/pull/7794) by [roryye](https://github.com/roryye)
@@ -130,6 +132,8 @@
 * Fix prometheus data cannot be labeled with universal tags，if slow-decoder is used. [#7100](https://github.com/deepflowio/deepflow/pull/7100)
 
 #### NEW FEATURE
+* feat: single-endpoints db support storing packet where the tap_side i… [#8468](https://github.com/deepflowio/deepflow/pull/8468) by [yuanchaoa](https://github.com/yuanchaoa)
+* feat: agent - eBPF Adapt to 4.19.90-2211.5.0.0178.22.uel20.x86_64 [#8461](https://github.com/deepflowio/deepflow/pull/8461) by [yinjiping](https://github.com/yinjiping)
 * feat: add column in ck pod_node and pod_ingress [#7799](https://github.com/deepflowio/deepflow/pull/7799) by [duandaa](https://github.com/duandaa)
 * feat: Using libpcap without restarting when the network card does not… [#7780](https://github.com/deepflowio/deepflow/pull/7780) by [yuanchaoa](https://github.com/yuanchaoa)
 * feat: add endpoint-tcp-port-name configuration [#7778](https://github.com/deepflowio/deepflow/pull/7778) by [xiaochaoren1](https://github.com/xiaochaoren1)

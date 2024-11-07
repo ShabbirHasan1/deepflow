@@ -11,6 +11,7 @@
 * feat: CK’s username and password support the use of special characters [#7229](https://github.com/deepflowio/deepflow/pull/7119)
 
 #### Bug Fix
+* fix: ckwriter writing failure caused by not writing data for a long time [#8469](https://github.com/deepflowio/deepflow/pull/8469) by [lzf575](https://github.com/lzf575)
 * fix: CVE-2024-35195 vuln [#7809](https://github.com/deepflowio/deepflow/pull/7809) by [taloric](https://github.com/taloric)
 * fix: turn off the call monitoring function and stop related functions [#7806](https://github.com/deepflowio/deepflow/pull/7806) by [jin-xiaofeng](https://github.com/jin-xiaofeng)
 * fix: agent enable feature permission [#7795](https://github.com/deepflowio/deepflow/pull/7795) by [roryye](https://github.com/roryye)
@@ -103,6 +104,9 @@
 **[Changelog for v6.5](https://www.deepflow.io/docs/release-notes/release-6.5-ce)**<br/>
 
 #### NEW FEATURE
+* feat: the role field adds the values local and rest [#8465](https://github.com/deepflowio/deepflow/pull/8465) by [lzf575](https://github.com/lzf575)
+* feat: single-endpoints db support storing packet where the tap_side i… [#8463](https://github.com/deepflowio/deepflow/pull/8463) by [yuanchaoa](https://github.com/yuanchaoa)
+* feat: agent - eBPF Adapt to 4.19.90-2211.5.0.0178.22.uel20.x86_64 [#8460](https://github.com/deepflowio/deepflow/pull/8460) by [yinjiping](https://github.com/yinjiping)
 * feat: Using libpcap without restarting when the network card does not… [#7781](https://github.com/deepflowio/deepflow/pull/7781) by [yuanchaoa](https://github.com/yuanchaoa)
 * feat: agent license func operate [#7771](https://github.com/deepflowio/deepflow/pull/7771) by [roryye](https://github.com/roryye)
 * feat: increase billing function control capabilities [#7770](https://github.com/deepflowio/deepflow/pull/7770) by [jin-xiaofeng](https://github.com/jin-xiaofeng)
