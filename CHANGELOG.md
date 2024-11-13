@@ -8,6 +8,8 @@
 ### <a id="main"></a>DeepFlow release main
 
 #### Bug Fix
+* fix: query nullable type from database [#8495](https://github.com/deepflowio/deepflow/pull/8495) by [taloric](https://github.com/taloric)
+* fix: Agent testcases [#8494](https://github.com/deepflowio/deepflow/pull/8494) by [rvql](https://github.com/rvql)
 * fix: Modify alert_event auto_service/auto_instance error and showtagv… [#7807](https://github.com/deepflowio/deepflow/pull/7807) by [Ericsssss](https://github.com/Ericsssss)
 * fix: turn off the call monitoring function and stop related functions [#7805](https://github.com/deepflowio/deepflow/pull/7805) by [jin-xiaofeng](https://github.com/jin-xiaofeng)
 * fix: agent enable feature permission [#7794](https://github.com/deepflowio/deepflow/pull/7794) by [roryye](https://github.com/roryye)
@@ -130,6 +132,8 @@
 * Fix prometheus data cannot be labeled with universal tags，if slow-decoder is used. [#7100](https://github.com/deepflowio/deepflow/pull/7100)
 
 #### NEW FEATURE
+* feat: add metric data_source [#8493](https://github.com/deepflowio/deepflow/pull/8493) by [SongZhen0704](https://github.com/SongZhen0704)
+* feat: support agent watch poilcy [#8471](https://github.com/deepflowio/deepflow/pull/8471) by [askyrie](https://github.com/askyrie)
 * feat: add column in ck pod_node and pod_ingress [#7799](https://github.com/deepflowio/deepflow/pull/7799) by [duandaa](https://github.com/duandaa)
 * feat: Using libpcap without restarting when the network card does not… [#7780](https://github.com/deepflowio/deepflow/pull/7780) by [yuanchaoa](https://github.com/yuanchaoa)
 * feat: add endpoint-tcp-port-name configuration [#7778](https://github.com/deepflowio/deepflow/pull/7778) by [xiaochaoren1](https://github.com/xiaochaoren1)
