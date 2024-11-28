@@ -130,6 +130,8 @@
 * Fix prometheus data cannot be labeled with universal tags，if slow-decoder is used. [#7100](https://github.com/deepflowio/deepflow/pull/7100)
 
 #### NEW FEATURE
+* feat: support Countable stats written to deepflow_tenant database [#8567](https://github.com/deepflowio/deepflow/pull/8567) by [lzf575](https://github.com/lzf575)
+* feat: exporters adds tag-filters-groups configuration [#8552](https://github.com/deepflowio/deepflow/pull/8552) by [lzf575](https://github.com/lzf575)
 * feat: add column in ck pod_node and pod_ingress [#7799](https://github.com/deepflowio/deepflow/pull/7799) by [duandaa](https://github.com/duandaa)
 * feat: Using libpcap without restarting when the network card does not… [#7780](https://github.com/deepflowio/deepflow/pull/7780) by [yuanchaoa](https://github.com/yuanchaoa)
 * feat: add endpoint-tcp-port-name configuration [#7778](https://github.com/deepflowio/deepflow/pull/7778) by [xiaochaoren1](https://github.com/xiaochaoren1)
@@ -285,6 +287,7 @@
 * feat: server directly reports metrics of load1_by_cpu_num that can be used for alert [#7088](https://github.com/deepflowio/deepflow/pull/7088) by [lzf575](https://github.com/lzf575)
 
 #### Refactoring
+* refactor: modify configure struct [#8569](https://github.com/deepflowio/deepflow/pull/8569) by [yuanchaoa](https://github.com/yuanchaoa)
 * refactor: add configuration structures [#7804](https://github.com/deepflowio/deepflow/pull/7804) by [yuanchaoa](https://github.com/yuanchaoa)
 * refactor: modify the default batch write size for metrics and flow logs [#7789](https://github.com/deepflowio/deepflow/pull/7789) by [lzf575](https://github.com/lzf575)
 * refactor: agent config [#7745](https://github.com/deepflowio/deepflow/pull/7745) by [TomatoMr](https://github.com/TomatoMr)
