@@ -8,6 +8,9 @@
 ### <a id="main"></a>DeepFlow release main
 
 #### Bug Fix
+* fix: Agent config change TODOs vol.3 [#8616](https://github.com/deepflowio/deepflow/pull/8616) by [rvql](https://github.com/rvql)
+* fix: Agent config change TODOs vol.2 [#8604](https://github.com/deepflowio/deepflow/pull/8604) by [rvql](https://github.com/rvql)
+* fix: bpf does not take effect in analyzer mode [#8603](https://github.com/deepflowio/deepflow/pull/8603) by [yuanchaoa](https://github.com/yuanchaoa)
 * fix: Modify alert_event auto_service/auto_instance error and showtagv… [#7807](https://github.com/deepflowio/deepflow/pull/7807) by [Ericsssss](https://github.com/Ericsssss)
 * fix: turn off the call monitoring function and stop related functions [#7805](https://github.com/deepflowio/deepflow/pull/7805) by [jin-xiaofeng](https://github.com/jin-xiaofeng)
 * fix: agent enable feature permission [#7794](https://github.com/deepflowio/deepflow/pull/7794) by [roryye](https://github.com/roryye)
@@ -130,6 +133,7 @@
 * Fix prometheus data cannot be labeled with universal tags，if slow-decoder is used. [#7100](https://github.com/deepflowio/deepflow/pull/7100)
 
 #### NEW FEATURE
+* feat: supports creating 1h, 1d aggregate data source when using ByConity [#8614](https://github.com/deepflowio/deepflow/pull/8614) by [lzf575](https://github.com/lzf575)
 * feat: add column in ck pod_node and pod_ingress [#7799](https://github.com/deepflowio/deepflow/pull/7799) by [duandaa](https://github.com/duandaa)
 * feat: Using libpcap without restarting when the network card does not… [#7780](https://github.com/deepflowio/deepflow/pull/7780) by [yuanchaoa](https://github.com/yuanchaoa)
 * feat: add endpoint-tcp-port-name configuration [#7778](https://github.com/deepflowio/deepflow/pull/7778) by [xiaochaoren1](https://github.com/xiaochaoren1)
