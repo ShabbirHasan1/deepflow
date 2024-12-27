@@ -11,6 +11,7 @@
 * feat: CK’s username and password support the use of special characters [#7229](https://github.com/deepflowio/deepflow/pull/7119)
 
 #### Bug Fix
+* fix: the throttler cannot write all data to the queue at once [#8793](https://github.com/deepflowio/deepflow/pull/8793) by [lzf575](https://github.com/lzf575)
 * fix: pcap,l4_packet,spantrace data exception [#8596](https://github.com/deepflowio/deepflow/pull/8596) by [lzf575](https://github.com/lzf575)
 * fix: the policy does not check memory in analyzer mode [#8551](https://github.com/deepflowio/deepflow/pull/8551) by [yuanchaoa](https://github.com/yuanchaoa)
 * fix: eBPF SELinux permission-related exit [#8533](https://github.com/deepflowio/deepflow/pull/8533) by [yinjiping](https://github.com/yinjiping)
@@ -258,6 +259,7 @@
 * feat: add change log [#7095](https://github.com/deepflowio/deepflow/pull/7095) by [Nick-0314](https://github.com/Nick-0314)
 
 #### Refactoring
+* refactor: add logs [#8780](https://github.com/deepflowio/deepflow/pull/8780) by [yuanchaoa](https://github.com/yuanchaoa)
 * refactor: agent adds the 'disabled-cgroups' configuration. [#8165](https://github.com/deepflowio/deepflow/pull/8165) by [TomatoMr](https://github.com/TomatoMr)
 * refactor: agent adds a disable_cgroups option [#8159](https://github.com/deepflowio/deepflow/pull/8159) by [TomatoMr](https://github.com/TomatoMr)
 * refactor: agent remove prometheus api sync [#7577](https://github.com/deepflowio/deepflow/pull/7577) by [TomatoMr](https://github.com/TomatoMr)
