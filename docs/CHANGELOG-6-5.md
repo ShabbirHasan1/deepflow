@@ -7,6 +7,7 @@
 * feat: CK’s username and password support the use of special characters [#7229](https://github.com/deepflowio/deepflow/pull/7119)
 
 #### Bug Fix
+* fix: the throttler cannot write all data to the queue at once [#8793](https://github.com/deepflowio/deepflow/pull/8793) by [lzf575](https://github.com/lzf575)
 * fix: Add filter to agent remote command and handle content when error… [#7382](https://github.com/deepflowio/deepflow/pull/7382) by [roryye](https://github.com/roryye)
 * fix: Community Edition does not support multi-organization and multi-team features [#7375](https://github.com/deepflowio/deepflow/pull/7375) by [jin-xiaofeng](https://github.com/jin-xiaofeng)
 * fix: agent wrong desensitized mysql trace_id [#7371](https://github.com/deepflowio/deepflow/pull/7371) by [TomatoMr](https://github.com/TomatoMr)
@@ -74,3 +75,7 @@
 
 #### Testing
 * chore: use the latest go version to build server/cli [#7235](https://github.com/deepflowio/deepflow/pull/7235) by [zhangzujian](https://github.com/zhangzujian)
+
+
+#### Refactoring
+* refactor: add logs [#8780](https://github.com/deepflowio/deepflow/pull/8780) by [yuanchaoa](https://github.com/yuanchaoa)
