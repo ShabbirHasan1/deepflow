@@ -248,6 +248,8 @@
 * Fix prometheus data cannot be labeled with universal tags，if slow-decoder is used. [#7100](https://github.com/deepflowio/deepflow/pull/7100)
 
 #### NEW FEATURE
+* feat: removes unused agent group config downgrade code [#8857](https://github.com/deepflowio/deepflow/pull/8857) by [ZhengYa-0110](https://github.com/ZhengYa-0110)
+* feat: add vector component [#8851](https://github.com/deepflowio/deepflow/pull/8851) by [taloric](https://github.com/taloric)
 * feat: register esxi vtap support cloudtower [#8599](https://github.com/deepflowio/deepflow/pull/8599) by [askyrie](https://github.com/askyrie)
 * feat: querier add version check [#8235](https://github.com/deepflowio/deepflow/pull/8235) by [xiaochaoren1](https://github.com/xiaochaoren1)
 * feature: adds index to some tables [#8589](https://github.com/deepflowio/deepflow/pull/8589) by [ZhengYa-0110](https://github.com/ZhengYa-0110)
