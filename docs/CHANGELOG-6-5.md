@@ -11,6 +11,7 @@
 * feat: CK’s username and password support the use of special characters [#7229](https://github.com/deepflowio/deepflow/pull/7119)
 
 #### Bug Fix
+* fix: Fix windows compile [#8896](https://github.com/deepflowio/deepflow/pull/8896) by [rvql](https://github.com/rvql)
 * fix: pcap,l4_packet,spantrace data exception [#8596](https://github.com/deepflowio/deepflow/pull/8596) by [lzf575](https://github.com/lzf575)
 * fix: the policy does not check memory in analyzer mode [#8551](https://github.com/deepflowio/deepflow/pull/8551) by [yuanchaoa](https://github.com/yuanchaoa)
 * fix: eBPF SELinux permission-related exit [#8533](https://github.com/deepflowio/deepflow/pull/8533) by [yinjiping](https://github.com/yinjiping)
@@ -165,6 +166,7 @@
 **[Changelog for v6.5](https://www.deepflow.io/docs/release-notes/release-6.5-ce)**<br/>
 
 #### NEW FEATURE
+* feat: Change default max_socket to 128 [#8891](https://github.com/deepflowio/deepflow/pull/8891) by [rvql](https://github.com/rvql)
 * feat: register esxi vtap support cloudtower [#8611](https://github.com/deepflowio/deepflow/pull/8611) by [askyrie](https://github.com/askyrie)
 * feat: the role field adds the values local and rest [#8465](https://github.com/deepflowio/deepflow/pull/8465) by [lzf575](https://github.com/lzf575)
 * feat: single-endpoints db support storing packet where the tap_side i… [#8463](https://github.com/deepflowio/deepflow/pull/8463) by [yuanchaoa](https://github.com/yuanchaoa)
