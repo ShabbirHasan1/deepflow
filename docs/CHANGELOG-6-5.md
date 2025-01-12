@@ -258,6 +258,7 @@
 * feat: add change log [#7095](https://github.com/deepflowio/deepflow/pull/7095) by [Nick-0314](https://github.com/Nick-0314)
 
 #### Refactoring
+* refactor: close_type is 0, which translates to Others [#8899](https://github.com/deepflowio/deepflow/pull/8899) by [lzf575](https://github.com/lzf575)
 * refactor: agent adds the 'disabled-cgroups' configuration. [#8165](https://github.com/deepflowio/deepflow/pull/8165) by [TomatoMr](https://github.com/TomatoMr)
 * refactor: agent adds a disable_cgroups option [#8159](https://github.com/deepflowio/deepflow/pull/8159) by [TomatoMr](https://github.com/TomatoMr)
 * refactor: agent remove prometheus api sync [#7577](https://github.com/deepflowio/deepflow/pull/7577) by [TomatoMr](https://github.com/TomatoMr)
