@@ -165,6 +165,10 @@
 **[Changelog for v6.5](https://www.deepflow.io/docs/release-notes/release-6.5-ce)**<br/>
 
 #### NEW FEATURE
+* feat: agent - eBPF Add a Musl flag option [#9022](https://github.com/deepflowio/deepflow/pull/9022) by [yinjiping](https://github.com/yinjiping)
+* feat: agent - eBPF Add an extended directory [#9019](https://github.com/deepflowio/deepflow/pull/9019) by [yinjiping](https://github.com/yinjiping)
+* feat: agent - eBPF Add compilation for extension files [#9015](https://github.com/deepflowio/deepflow/pull/9015) by [yinjiping](https://github.com/yinjiping)
+* feat: updatae tunnel decap feature [#8591](https://github.com/deepflowio/deepflow/pull/8591) by [yuanchaoa](https://github.com/yuanchaoa)
 * feat: register esxi vtap support cloudtower [#8611](https://github.com/deepflowio/deepflow/pull/8611) by [askyrie](https://github.com/askyrie)
 * feat: the role field adds the values local and rest [#8465](https://github.com/deepflowio/deepflow/pull/8465) by [lzf575](https://github.com/lzf575)
 * feat: single-endpoints db support storing packet where the tap_side i… [#8463](https://github.com/deepflowio/deepflow/pull/8463) by [yuanchaoa](https://github.com/yuanchaoa)
