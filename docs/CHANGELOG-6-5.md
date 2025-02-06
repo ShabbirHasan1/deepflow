@@ -165,6 +165,7 @@
 **[Changelog for v6.5](https://www.deepflow.io/docs/release-notes/release-6.5-ce)**<br/>
 
 #### NEW FEATURE
+* feat: add cloud common for fc [#8895](https://github.com/deepflowio/deepflow/pull/8895) by [askyrie](https://github.com/askyrie)
 * feat: register esxi vtap support cloudtower [#8611](https://github.com/deepflowio/deepflow/pull/8611) by [askyrie](https://github.com/askyrie)
 * feat: the role field adds the values local and rest [#8465](https://github.com/deepflowio/deepflow/pull/8465) by [lzf575](https://github.com/lzf575)
 * feat: single-endpoints db support storing packet where the tap_side i… [#8463](https://github.com/deepflowio/deepflow/pull/8463) by [yuanchaoa](https://github.com/yuanchaoa)
@@ -268,6 +269,7 @@
 
 
 #### Chore
+* chore: Update github workflow artifact actions [#9042](https://github.com/deepflowio/deepflow/pull/9042) by [rvql](https://github.com/rvql)
 * chore: bump golang.org/x/net to v0.27.0 [#7306](https://github.com/deepflowio/deepflow/pull/7306) by [zhangzujian](https://github.com/zhangzujian)
 * chore: update cli dependencies [#7250](https://github.com/deepflowio/deepflow/pull/7250) by [lzf575](https://github.com/lzf575)
 

@@ -248,6 +248,7 @@
 * Fix prometheus data cannot be labeled with universal tags，if slow-decoder is used. [#7100](https://github.com/deepflowio/deepflow/pull/7100)
 
 #### NEW FEATURE
+* feat: only send user_config & dynamic_config to disabled agent [#9044](https://github.com/deepflowio/deepflow/pull/9044) by [SongZhen0704](https://github.com/SongZhen0704)
 * feat: register esxi vtap support cloudtower [#8599](https://github.com/deepflowio/deepflow/pull/8599) by [askyrie](https://github.com/askyrie)
 * feat: querier add version check [#8235](https://github.com/deepflowio/deepflow/pull/8235) by [xiaochaoren1](https://github.com/xiaochaoren1)
 * feature: adds index to some tables [#8589](https://github.com/deepflowio/deepflow/pull/8589) by [ZhengYa-0110](https://github.com/ZhengYa-0110)
@@ -536,6 +537,7 @@
 * refactor: trace_tree add encoding respose statistics [#7430](https://github.com/deepflowio/deepflow/pull/7430) by [lzf575](https://github.com/lzf575)
 
 #### Performance
+* perf: Improve process-listener performance [#9046](https://github.com/deepflowio/deepflow/pull/9046) by [rvql](https://github.com/rvql)
 * perf: add primary key for in_process table [#8623](https://github.com/deepflowio/deepflow/pull/8623) by [lzf575](https://github.com/lzf575)
 * perf: modify materialized view local table without group by [#8575](https://github.com/deepflowio/deepflow/pull/8575) by [lzf575](https://github.com/lzf575)
 * perf: improve the performance of json string escape [#8508](https://github.com/deepflowio/deepflow/pull/8508) by [lzf575](https://github.com/lzf575)
@@ -556,6 +558,7 @@
 * docs: rename opentemetry to opentelemetry [#7245](https://github.com/deepflowio/deepflow/pull/7245) by [lzf575](https://github.com/lzf575)
 
 #### Chore
+* chore: Update github workflow artifact actions [#9040](https://github.com/deepflowio/deepflow/pull/9040) by [rvql](https://github.com/rvql)
 * chore: Improve rebuild speed by eliminating unnecessary rerun of build.rs [#8207](https://github.com/deepflowio/deepflow/pull/8207) by [rvql](https://github.com/rvql)
 * chore: update cli dependencies [#7249](https://github.com/deepflowio/deepflow/pull/7249) by [lzf575](https://github.com/lzf575)
 
