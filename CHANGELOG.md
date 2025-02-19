@@ -8,6 +8,7 @@
 ### <a id="main"></a>DeepFlow release main
 
 #### Bug Fix
+* fix: agent group config command output is inaccurate [#8945](https://github.com/deepflowio/deepflow/pull/8945) by [ZhengYa-0110](https://github.com/ZhengYa-0110)
 * fix: errors occurred when modifying some agent group configuration [#8602](https://github.com/deepflowio/deepflow/pull/8602) by [ZhengYa-0110](https://github.com/ZhengYa-0110)
 * fix:  pcap,l4_packet, spantrace data exception [#8594](https://github.com/deepflowio/deepflow/pull/8594) by [lzf575](https://github.com/lzf575)
 * fix: TODOs in agent config [#8590](https://github.com/deepflowio/deepflow/pull/8590) by [rvql](https://github.com/rvql)
@@ -248,6 +249,10 @@
 * Fix prometheus data cannot be labeled with universal tags，if slow-decoder is used. [#7100](https://github.com/deepflowio/deepflow/pull/7100)
 
 #### NEW FEATURE
+* feat: agent - eBPF Modify kernel cache data flush time threshold [#9126](https://github.com/deepflowio/deepflow/pull/9126) by [yinjiping](https://github.com/yinjiping)
+* feat: Support packet capture in multiple namespaces [#9122](https://github.com/deepflowio/deepflow/pull/9122) by [rvql](https://github.com/rvql)
+* feat: dubbo support fastjson2 [#9119](https://github.com/deepflowio/deepflow/pull/9119) by [yuanchaoa](https://github.com/yuanchaoa)
+* feat: improves performance of recorder synchronization when there are a large number of process data [#8942](https://github.com/deepflowio/deepflow/pull/8942) by [ZhengYa-0110](https://github.com/ZhengYa-0110)
 * feat: register esxi vtap support cloudtower [#8599](https://github.com/deepflowio/deepflow/pull/8599) by [askyrie](https://github.com/askyrie)
 * feat: querier add version check [#8235](https://github.com/deepflowio/deepflow/pull/8235) by [xiaochaoren1](https://github.com/xiaochaoren1)
 * feature: adds index to some tables [#8589](https://github.com/deepflowio/deepflow/pull/8589) by [ZhengYa-0110](https://github.com/ZhengYa-0110)
