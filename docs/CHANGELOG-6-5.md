@@ -11,6 +11,8 @@
 * feat: CK’s username and password support the use of special characters [#7229](https://github.com/deepflowio/deepflow/pull/7119)
 
 #### Bug Fix
+* fix: agent - eBPF Profile Set podid for Total processes [#9190](https://github.com/deepflowio/deepflow/pull/9190) by [yinjiping](https://github.com/yinjiping)
+* fix: false positive grpc when tcp segmented [#9178](https://github.com/deepflowio/deepflow/pull/9178) by [rvql](https://github.com/rvql)
 * fix: pcap,l4_packet,spantrace data exception [#8596](https://github.com/deepflowio/deepflow/pull/8596) by [lzf575](https://github.com/lzf575)
 * fix: the policy does not check memory in analyzer mode [#8551](https://github.com/deepflowio/deepflow/pull/8551) by [yuanchaoa](https://github.com/yuanchaoa)
 * fix: eBPF SELinux permission-related exit [#8533](https://github.com/deepflowio/deepflow/pull/8533) by [yinjiping](https://github.com/yinjiping)
