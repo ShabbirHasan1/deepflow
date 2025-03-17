@@ -8,6 +8,8 @@
 ### <a id="main"></a>DeepFlow release main
 
 #### Bug Fix
+* fix: genesis sync update storage [#9311](https://github.com/deepflowio/deepflow/pull/9311) by [askyrie](https://github.com/askyrie)
+* fix: show metrics error when table is event [#9285](https://github.com/deepflowio/deepflow/pull/9285) by [xiaochaoren1](https://github.com/xiaochaoren1)
 * fix: errors occurred when modifying some agent group configuration [#8602](https://github.com/deepflowio/deepflow/pull/8602) by [ZhengYa-0110](https://github.com/ZhengYa-0110)
 * fix:  pcap,l4_packet, spantrace data exception [#8594](https://github.com/deepflowio/deepflow/pull/8594) by [lzf575](https://github.com/lzf575)
 * fix: TODOs in agent config [#8590](https://github.com/deepflowio/deepflow/pull/8590) by [rvql](https://github.com/rvql)
