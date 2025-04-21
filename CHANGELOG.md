@@ -8,6 +8,8 @@
 ### <a id="main"></a>DeepFlow release main
 
 #### Bug Fix
+* fix: ignore process config [#9531](https://github.com/deepflowio/deepflow/pull/9531) by [taloric](https://github.com/taloric)
+* fix: recorder sends wrong process gid flag to tagrecorder [#9522](https://github.com/deepflowio/deepflow/pull/9522) by [ZhengYa-0110](https://github.com/ZhengYa-0110)
 * fix: errors occurred when modifying some agent group configuration [#8602](https://github.com/deepflowio/deepflow/pull/8602) by [ZhengYa-0110](https://github.com/ZhengYa-0110)
 * fix:  pcap,l4_packet, spantrace data exception [#8594](https://github.com/deepflowio/deepflow/pull/8594) by [lzf575](https://github.com/lzf575)
 * fix: TODOs in agent config [#8590](https://github.com/deepflowio/deepflow/pull/8590) by [rvql](https://github.com/rvql)
@@ -248,6 +250,7 @@
 * Fix prometheus data cannot be labeled with universal tags，if slow-decoder is used. [#7100](https://github.com/deepflowio/deepflow/pull/7100)
 
 #### NEW FEATURE
+* feat: Add `Parse Failed` L7ResponseStatus [#9526](https://github.com/deepflowio/deepflow/pull/9526) by [rvql](https://github.com/rvql)
 * feat: register esxi vtap support cloudtower [#8599](https://github.com/deepflowio/deepflow/pull/8599) by [askyrie](https://github.com/askyrie)
 * feat: querier add version check [#8235](https://github.com/deepflowio/deepflow/pull/8235) by [xiaochaoren1](https://github.com/xiaochaoren1)
 * feature: adds index to some tables [#8589](https://github.com/deepflowio/deepflow/pull/8589) by [ZhengYa-0110](https://github.com/ZhengYa-0110)
