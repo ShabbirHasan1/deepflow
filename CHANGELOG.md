@@ -8,6 +8,9 @@
 ### <a id="main"></a>DeepFlow release main
 
 #### Bug Fix
+* fix: config map data hash [#9744](https://github.com/deepflowio/deepflow/pull/9744) by [askyrie](https://github.com/askyrie)
+* fix: agnet - eBPF Bypass kernel bug in fentry/fexit [#9738](https://github.com/deepflowio/deepflow/pull/9738) by [yinjiping](https://github.com/yinjiping)
+* fix: l7 throttle is not accurate [#9670](https://github.com/deepflowio/deepflow/pull/9670) by [lzf575](https://github.com/lzf575)
 * fix: errors occurred when modifying some agent group configuration [#8602](https://github.com/deepflowio/deepflow/pull/8602) by [ZhengYa-0110](https://github.com/ZhengYa-0110)
 * fix:  pcap,l4_packet, spantrace data exception [#8594](https://github.com/deepflowio/deepflow/pull/8594) by [lzf575](https://github.com/lzf575)
 * fix: TODOs in agent config [#8590](https://github.com/deepflowio/deepflow/pull/8590) by [rvql](https://github.com/rvql)
@@ -248,6 +251,8 @@
 * Fix prometheus data cannot be labeled with universal tags，if slow-decoder is used. [#7100](https://github.com/deepflowio/deepflow/pull/7100)
 
 #### NEW FEATURE
+* feat: resource event stores attributes info [#9729](https://github.com/deepflowio/deepflow/pull/9729) by [lzf575](https://github.com/lzf575)
+* feat: opt lookup gpid [#9722](https://github.com/deepflowio/deepflow/pull/9722) by [yuanchaoa](https://github.com/yuanchaoa)
 * feat: register esxi vtap support cloudtower [#8599](https://github.com/deepflowio/deepflow/pull/8599) by [askyrie](https://github.com/askyrie)
 * feat: querier add version check [#8235](https://github.com/deepflowio/deepflow/pull/8235) by [xiaochaoren1](https://github.com/xiaochaoren1)
 * feature: adds index to some tables [#8589](https://github.com/deepflowio/deepflow/pull/8589) by [ZhengYa-0110](https://github.com/ZhengYa-0110)
