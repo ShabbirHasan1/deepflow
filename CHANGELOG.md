@@ -8,6 +8,9 @@
 ### <a id="main"></a>DeepFlow release main
 
 #### Bug Fix
+* fix: Opensource arm64 compile [#10145](https://github.com/deepflowio/deepflow/pull/10145) by [rvql](https://github.com/rvql)
+* fix: select not exist field in vinterface table [#10140](https://github.com/deepflowio/deepflow/pull/10140) by [SongZhen0704](https://github.com/SongZhen0704)
+* fix: incorrect handshaking rtt [#10139](https://github.com/deepflowio/deepflow/pull/10139) by [yuanchaoa](https://github.com/yuanchaoa)
 * fix: errors occurred when modifying some agent group configuration [#8602](https://github.com/deepflowio/deepflow/pull/8602) by [ZhengYa-0110](https://github.com/ZhengYa-0110)
 * fix:  pcap,l4_packet, spantrace data exception [#8594](https://github.com/deepflowio/deepflow/pull/8594) by [lzf575](https://github.com/lzf575)
 * fix: TODOs in agent config [#8590](https://github.com/deepflowio/deepflow/pull/8590) by [rvql](https://github.com/rvql)
