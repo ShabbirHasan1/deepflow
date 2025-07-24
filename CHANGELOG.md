@@ -8,6 +8,8 @@
 ### <a id="main"></a>DeepFlow release main
 
 #### Bug Fix
+* fix: applog resp status not ok [#10179](https://github.com/deepflowio/deepflow/pull/10179) by [rvql](https://github.com/rvql)
+* fix: Short lived process wrongly synced [#10174](https://github.com/deepflowio/deepflow/pull/10174) by [rvql](https://github.com/rvql)
 * fix: errors occurred when modifying some agent group configuration [#8602](https://github.com/deepflowio/deepflow/pull/8602) by [ZhengYa-0110](https://github.com/ZhengYa-0110)
 * fix:  pcap,l4_packet, spantrace data exception [#8594](https://github.com/deepflowio/deepflow/pull/8594) by [lzf575](https://github.com/lzf575)
 * fix: TODOs in agent config [#8590](https://github.com/deepflowio/deepflow/pull/8590) by [rvql](https://github.com/rvql)
@@ -248,6 +250,8 @@
 * Fix prometheus data cannot be labeled with universal tags，if slow-decoder is used. [#7100](https://github.com/deepflowio/deepflow/pull/7100)
 
 #### NEW FEATURE
+* feat: Add process_blacklist configuration [#10178](https://github.com/deepflowio/deepflow/pull/10178) by [rvql](https://github.com/rvql)
+* feat: tagrecorder modifies the dictionary to perform incremental updates [#10122](https://github.com/deepflowio/deepflow/pull/10122) by [xiaochaoren1](https://github.com/xiaochaoren1)
 * feat: register esxi vtap support cloudtower [#8599](https://github.com/deepflowio/deepflow/pull/8599) by [askyrie](https://github.com/askyrie)
 * feat: querier add version check [#8235](https://github.com/deepflowio/deepflow/pull/8235) by [xiaochaoren1](https://github.com/xiaochaoren1)
 * feature: adds index to some tables [#8589](https://github.com/deepflowio/deepflow/pull/8589) by [ZhengYa-0110](https://github.com/ZhengYa-0110)
