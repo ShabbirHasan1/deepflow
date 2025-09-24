@@ -8,6 +8,7 @@
 ### <a id="main"></a>DeepFlow release main
 
 #### Bug Fix
+* fix: incorrect configuration description [#10496](https://github.com/deepflowio/deepflow/pull/10496) by [yuanchaoa](https://github.com/yuanchaoa)
 * fix: errors occurred when modifying some agent group configuration [#8602](https://github.com/deepflowio/deepflow/pull/8602) by [ZhengYa-0110](https://github.com/ZhengYa-0110)
 * fix:  pcap,l4_packet, spantrace data exception [#8594](https://github.com/deepflowio/deepflow/pull/8594) by [lzf575](https://github.com/lzf575)
 * fix: TODOs in agent config [#8590](https://github.com/deepflowio/deepflow/pull/8590) by [rvql](https://github.com/rvql)
@@ -248,6 +249,8 @@
 * Fix prometheus data cannot be labeled with universal tags，if slow-decoder is used. [#7100](https://github.com/deepflowio/deepflow/pull/7100)
 
 #### NEW FEATURE
+* feat: cloud aws support rds and redis [#10484](https://github.com/deepflowio/deepflow/pull/10484) by [askyrie](https://github.com/askyrie)
+* feat: cloud tencent support rds and redis [#10462](https://github.com/deepflowio/deepflow/pull/10462) by [askyrie](https://github.com/askyrie)
 * feat: register esxi vtap support cloudtower [#8599](https://github.com/deepflowio/deepflow/pull/8599) by [askyrie](https://github.com/askyrie)
 * feat: querier add version check [#8235](https://github.com/deepflowio/deepflow/pull/8235) by [xiaochaoren1](https://github.com/xiaochaoren1)
 * feature: adds index to some tables [#8589](https://github.com/deepflowio/deepflow/pull/8589) by [ZhengYa-0110](https://github.com/ZhengYa-0110)
