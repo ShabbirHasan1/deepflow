@@ -11,6 +11,7 @@
 * feat: CK’s username and password support the use of special characters [#7229](https://github.com/deepflowio/deepflow/pull/7119)
 
 #### Bug Fix
+* fix: k8s gather refresh failed [#10639](https://github.com/deepflowio/deepflow/pull/10639) by [askyrie](https://github.com/askyrie)
 * fix: pcap,l4_packet,spantrace data exception [#8596](https://github.com/deepflowio/deepflow/pull/8596) by [lzf575](https://github.com/lzf575)
 * fix: the policy does not check memory in analyzer mode [#8551](https://github.com/deepflowio/deepflow/pull/8551) by [yuanchaoa](https://github.com/yuanchaoa)
 * fix: eBPF SELinux permission-related exit [#8533](https://github.com/deepflowio/deepflow/pull/8533) by [yinjiping](https://github.com/yinjiping)
@@ -272,6 +273,7 @@
 * chore: update cli dependencies [#7250](https://github.com/deepflowio/deepflow/pull/7250) by [lzf575](https://github.com/lzf575)
 
 #### OTHER
+* 更新 v6.5 server build 依赖 [#10651](https://github.com/deepflowio/deepflow/pull/10651) by [1473371932](https://github.com/1473371932)
 * [Controller] get data error from mysql and return directly [#8043](https://github.com/deepflowio/deepflow/pull/8043) by [jin-xiaofeng](https://github.com/jin-xiaofeng)
 * Cp 66 lo to v65 [#7716](https://github.com/deepflowio/deepflow/pull/7716) by [lzf575](https://github.com/lzf575)
 * support consistent timestamp in l7metrics [#7626](https://github.com/deepflowio/deepflow/pull/7626) by [yuanchaoa](https://github.com/yuanchaoa)
