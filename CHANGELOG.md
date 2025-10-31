@@ -8,6 +8,7 @@
 ### <a id="main"></a>DeepFlow release main
 
 #### Bug Fix
+* fix: custom policy match [#10693](https://github.com/deepflowio/deepflow/pull/10693) by [taloric](https://github.com/taloric)
 * fix: errors occurred when modifying some agent group configuration [#8602](https://github.com/deepflowio/deepflow/pull/8602) by [ZhengYa-0110](https://github.com/ZhengYa-0110)
 * fix:  pcap,l4_packet, spantrace data exception [#8594](https://github.com/deepflowio/deepflow/pull/8594) by [lzf575](https://github.com/lzf575)
 * fix: TODOs in agent config [#8590](https://github.com/deepflowio/deepflow/pull/8590) by [rvql](https://github.com/rvql)
@@ -248,6 +249,10 @@
 * Fix prometheus data cannot be labeled with universal tags，if slow-decoder is used. [#7100](https://github.com/deepflowio/deepflow/pull/7100)
 
 #### NEW FEATURE
+* feat: Update OpenSSL configuration comments [#10701](https://github.com/deepflowio/deepflow/pull/10701) by [yinjiping](https://github.com/yinjiping)
+* feat: querier supports biz_service [#10695](https://github.com/deepflowio/deepflow/pull/10695) by [xiaochaoren1](https://github.com/xiaochaoren1)
+* feat: tagrecorder supports dm [#10692](https://github.com/deepflowio/deepflow/pull/10692) by [xiaochaoren1](https://github.com/xiaochaoren1)
+* feat: implement business service in trisolaris [#10680](https://github.com/deepflowio/deepflow/pull/10680) by [ZhengYa-0110](https://github.com/ZhengYa-0110)
 * feat: register esxi vtap support cloudtower [#8599](https://github.com/deepflowio/deepflow/pull/8599) by [askyrie](https://github.com/askyrie)
 * feat: querier add version check [#8235](https://github.com/deepflowio/deepflow/pull/8235) by [xiaochaoren1](https://github.com/xiaochaoren1)
 * feature: adds index to some tables [#8589](https://github.com/deepflowio/deepflow/pull/8589) by [ZhengYa-0110](https://github.com/ZhengYa-0110)
@@ -556,6 +561,7 @@
 * docs: rename opentemetry to opentelemetry [#7245](https://github.com/deepflowio/deepflow/pull/7245) by [lzf575](https://github.com/lzf575)
 
 #### Chore
+* chore:  custom service annotation adjustments [#10694](https://github.com/deepflowio/deepflow/pull/10694) by [lzf575](https://github.com/lzf575)
 * chore: Improve rebuild speed by eliminating unnecessary rerun of build.rs [#8207](https://github.com/deepflowio/deepflow/pull/8207) by [rvql](https://github.com/rvql)
 * chore: update cli dependencies [#7249](https://github.com/deepflowio/deepflow/pull/7249) by [lzf575](https://github.com/lzf575)
 
